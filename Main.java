@@ -49,7 +49,6 @@ public class Main {
             }
         }
 
-        System.out.println(school.toString());
         for (Person member : school.members) {
             if (member instanceof Teacher) {
                 Teacher teacher = (Teacher) member;

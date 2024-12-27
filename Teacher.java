@@ -33,11 +33,7 @@ public class Teacher extends Person {
 
         @Override
         public String toString() {
-            StringBuilder result = new StringBuilder("School Members:\n");
-            for (Person person : members) {
-                result.append(person.toString()).append("\n");
-            }
-            return result.toString();
+            return super.toString();
         }
     }
 }
